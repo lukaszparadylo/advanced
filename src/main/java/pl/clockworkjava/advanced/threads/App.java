@@ -9,7 +9,7 @@ public class App
 
     public static void main(String[] args) throws InterruptedException
     {
-
+        System.out.println("Główny wątek aplikacji: " + Thread.currentThread().getName());
         System.out.println("Główny wątek aplikacji: " + Thread.currentThread().getName());
 
         ExecutorService executor = Executors.newFixedThreadPool(1);
